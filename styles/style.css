@@ -1,0 +1,186 @@
+
+.navBarContainer {
+    width: 100%;
+    display: flex;
+    min-width: 405px;
+    justify-content: right;
+}
+
+@media (max-width: 405px) {
+    .navBarContainer {
+        visibility: hidden;
+    }
+}
+
+.navLink {
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    line-height: 24px;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 13px;
+    margin: 10px 15px;
+}
+
+main {
+    min-width: 405px;
+}
+
+#logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 145px;
+}
+
+#googleLogo {
+    margin: auto;
+}
+
+#formContainer {
+    margin: 25px auto;
+    max-width: 484px;
+    min-width: 336px ;
+}
+
+.searchBoxContainer {
+    display: flex;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 32px;
+    max-width: 484px;
+}
+
+@media (min-width: 548px) {
+    .searchBoxContainer {
+        margin: 0px;
+    }
+}
+
+.searchBoxContainer:hover {
+	box-shadow: 0 1px 6px rgba(32,33,36,.28);
+	border-color: rgba(223,225,229,0);
+}
+
+#magGlass {
+    margin: auto 10px;
+}
+
+.searchBox {
+    flex: 100%;
+	background-color: transparent;
+	border: none;
+	margin: auto 40px auto 0px;
+	padding: 0;
+	color: rgba(0,0,0,.87);
+	word-wrap: break-word;
+	outline: none;
+	height: 34px;
+	font-size: 16px;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.button {
+    background-image: linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+
+}
+
+#offerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#googleOffered {
+    font-size: small;
+    color: #202124;
+    font-family: arial, sans-serif;
+    line-height: 20px;
+}
+
+.offerLink {
+    padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: small;
+    line-height: 20px;
+
+}
+
+footer {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color:rgba(0,0,0,.54);
+    font-family: arial, sans-serif; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    border-top: 1px solid #dadce0;
+    min-width: 400px;
+    /* font-size: 10pt; */
+}
+
+
+.lowFooter {
+    border-top: 1px solid #dadce0;
+}
+
+@media (min-width: 805px) {
+    #rightTopSpan {
+        float: right;
+        padding-right: 27px;
+    }
+}
+
+@media (max-width: 805px) {
+    #rightTopSpan {
+        display: flex;
+        justify-content: center;
+    }
+    #leftBottomSpan {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.footerLink {
+    color: #70757a;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 27px;
+    text-align: center;
+    font-size: 14px;
+}
