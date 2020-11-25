@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+        <title>CS50W Google Advanced Search</title>
+    </head>
+    <body>
+        <nav class="navBarContainer" id="advancedNavBar">
+            <img id="googleLogoAdvanced" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <a class="navLink" href="index.html">Home</a>
+            <a class="navLink" href="image-search.html">Image Search</a>
+        </nav>
+        <div id="advancedTitle">
+            <label>Advanced Search</label>
+        </div>
+
+
+        <main>  
+            <div id="findPagesWith">Find pages with...</div>
+            <form action="https://google.com/search" id="formGrid">
+                <div>
+                    <p>all these words:</p>
+                </div>
+                <input type="text" value="" name="as_q" class="advancedSearchBox">
+                <div class="textExplanation">
+                    Type the important words: tri-colour rat terrier
+                </div>
+
+                <div>
+                    <p>this exact word or phrase:</p>
+                </div>
+                <input type="text" value="" name="as_epq" class="advancedSearchBox">
+                <div class="textExplanation">
+                    Put exact words in quotes: "rat terrier"
+                </div>
+
+                <div>
+                    <p>any of these words:</p>
+                </div>
+                <input type="text" value="" name="as_oq" class="advancedSearchBox">
+                <div class="textExplanation">
+                    Type OR between all the words you want: miniature OR standard
+                </div>
+
+                <div>
+                    <p>none of these words:</p>
+                </div>
+                <input type="text" value="" name="as_eq" class="advancedSearchBox">
+                <div class="textExplanation">
+                    Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </div>
+
+                <div style="width: 100%;"></div>
+                <div id="submitAdvancedContainer" style="width: 100%;">
+                    <input type="submit" value="Advanced Search" id="submitAdvanced"></input>
+                </div>
+                <div style="width: 100%;"></div>
+            </form>
+
+
+        </main>
+
+
+        <footer>
+            <div class="footerDiv">
+                <a class="footerLink">Chile</a>
+            </div>
+            <div class="lowFooter">
+                <div id="leftBottomSpan" class="footerDiv">
+                    <a class="footerLink" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiRm-yhwZntAhXpIbkGHZ2LAUYQ8awCCBE&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Den-CL%26fg%3D1&usg=AOvVaw1ZI7lE71aClZuwBVoIdlIv">Privacy</a>
+                    <a class="footerLink" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiRm-yhwZntAhXpIbkGHZ2LAUYQ8qwCCBI&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Den-CL%26fg%3D1&usg=AOvVaw0dmxEf896X3Oet7WH-ltM4">Terms</a>
+                    <a class="footerLink" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiRm-yhwZntAhXpIbkGHZ2LAUYQzq0CCBM&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F">Settings</a>
+                </div>
+            </div> 
+        </footer> 
+    </body>
+</html>
